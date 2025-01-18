@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(){
+	int t,a,b,c,m,k,n,l;
+	double area;
+    float a,b,c
+	scanf("%d",&t);
+	while(t--){
+	scanf("%d %d %d", &a, &b, &c);
+		k=(a+b+c)/2;
+		m=(k-a);
+		n=(k-b);
+		l=(k-c);
+
+		area=sqrt(k*m*n*l);
+
+	printf("Area = %.3lf\n",area);
+	}
+	return 0;
+}
