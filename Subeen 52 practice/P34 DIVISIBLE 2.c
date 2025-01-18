@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int t,i;
+    long int a,b,c;
+    scanf("%d", &t);
+    while(t--)
+    {
+        scanf("%ld %ld %ld", &a, &b, &c);
+        for(i=1; i<=c; i++)
+        {
+            if(i%a==0 && i%b==0)
+            {
+                printf("%ld\n", i);
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
