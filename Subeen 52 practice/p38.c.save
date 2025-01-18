@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int t;
+    scanf("%d", &t);
+    while(t--)
+    {
+int a,b,m,n;
+scanf("%d %d", &m, &n);
+for(i=1; i<=n; i++)
+{
+    for(j=1; j<=a; j++)
+    {
+        printf("%d ", m);
+    }
+    printf("\n");
+}
+
+
+for(k=a-1; a<=n; a++)
+{
+    for(b=a; b<=n; b++)
+    {
+        printf("%d ", m);
+    }
+    printf("\n");
+}
+printf("\n");
+    }
+return 0;
+}
