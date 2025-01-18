@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int t,p,q,c,i;
+	double s;
+	scanf("%d", &t);
+	while(t--){
+		//cin>>p>>q>>c;
+		scanf("%d %d %d", &p, &q, &c);
+		s=pow(p,q);
+		i=(int)s%c;
+		//cout<<i<<endl;
+		printf("%d",i);
+	}
+}
