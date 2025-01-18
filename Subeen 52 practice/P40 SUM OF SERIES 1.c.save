@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+	int t,x,k,sum=0;
+
+	scanf("%d", &t);
+
+	while(t--){
+		int sum=0;
+		int power=0;
+		scanf("%d %d", &x, &k);
+		for(int i=0;i<=k;i++){
+                power = power * x;
+			sum+=power;
+		}
+
+		printf("Result = %d\n", sum);
+	}
+	//printf("\n");
+	return 0;
+}
