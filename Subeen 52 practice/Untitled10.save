@@ -1,0 +1,6 @@
+#include<stdio.h>
+#include<math.h>
+void find_prime_number(int prime_ara[], int n)
+{
+
+}
